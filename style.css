@@ -1,0 +1,105 @@
+.navbar-custom.scrolled,
+.navbar-custom.scrolled .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 200ms linear;
+}
+
+.navbar-custom.scrolled a {
+    color: white;
+}
+
+
+/* .dropdown-custom:hover .dropdown-content-custom {
+    display: block;
+} */
+
+
+
+.zoom-effect {
+    transition: transform .2s;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.5);
+    overflow: hidden;
+}
+
+/******************************/
+
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+/*-------------------------*/
+
+/* @media (max-width: 767px) {
+    .logos-carousel-inner .carousel-item > div ,
+    .testimonial-carousel-inner .carousel-item > div ,
+    .business-innovation-carousel-inner .carousel-item > div {
+        display: none;
+    }
+
+    .logos-carousel-inner .carousel-item > div:first-child,
+    .testimonial-carousel-inner .carousel-item > div:first-child,
+    .business-innovation-carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+} */
+
+/* .logos-carousel-inner .carousel-item.active,
+.logos-carousel-inner .carousel-item-next,
+.logos-carousel-inner .carousel-item-prev,
+.testimonial-carousel-inner .carousel-item.active,
+.testimonial-carousel-inner .carousel-item-next,
+.testimonial-carousel-inner .carousel-item-prev,
+.business-innovation-carousel-inner .carousel-item.active,
+.business-innovation-carousel-inner .carousel-item-next,
+.business-innovation-carousel-inner .carousel-item-prev {
+    display: flex;
+    justify-content: center;
+} */
+
+/* @media (min-width: 768px) {
+
+    .logos-carousel-inner .carousel-item-end.active,
+    .logos-carousel-inner .carousel-item-next,
+    .testimonial-carousel-inner .carousel-item-end.active,
+    .testimonial-carousel-inner .carousel-item-next,
+    .business-innovation-carousel-inner .carousel-item-end.active,
+    .business-innovation-carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .logos-carousel-inner .carousel-item-start.active,
+    .logos-carousel-inner .carousel-item-prev,
+    .testimonial-carousel-inner .carousel-item-start.active,
+    .testimonial-carousel-inner .carousel-item-prev,
+    .business-innovation-carousel-inner .carousel-item-start.active,
+    .business-innovation-carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+} */
+
+/* .logos-carousel-inner .carousel-item-end,
+.logos-carousel-inner .carousel-item-start,
+.testimonial-carousel-inner .carousel-item-end,
+.testimonial-carousel-inner .carousel-item-start,
+.business-innovation-carousel-inner .carousel-item-end,
+.business-innovation-carousel-inner .carousel-item-start {
+    transform: translateX(0);
+} */
+
+/****************************/
+
+.logo-img-div {
+    width: 100px;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
